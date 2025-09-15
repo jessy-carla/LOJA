@@ -1,0 +1,70 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-bottom: 60px; /* Espaço para o footer fixo */
+  
+    
+}
+
+h1,h2{
+
+text-align: center;
+margin-top: 50px;
+background-color: lightcoral;
+
+}
+.text-sobre{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+header{
+    color: rgb(60, 68, 68);
+  background-size: cover;
+  
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do conteúdo do footer */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilização da navegação do footer */
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+  
