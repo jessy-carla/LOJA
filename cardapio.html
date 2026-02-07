@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardapio Jessy Food</title>
-    <link rel="stylesheet" href="cardapio.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio Jessy Food</title>
+  <link rel="stylesheet" href="cardapio.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    
+  <header class="header">
+     <a href="#" class="logo">
+      </a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="imagens/Jessy_Food-removebg-preview.png" alt="logo" class="logo">
+ 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navConteudo" aria-controls="navConteudo" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navConteudo">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="inicio.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="cardapio.html">Cardápio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatos.html">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-  <body>
-    <main class="container">
-    <h1>🍽️ Cardápio</h1>
-    
-    <div class="categoria">
-        <h2>🥗 Entradas</h2>
-        <div class="item">
-            <span>Bruschetta</span>
-            <span class="preco">R$ 15,90</span>
-        </div>
-        <div class="item">
-            <span>Salada Caesar</span>
-            <span class="preco">R$ 22,90</span>
-        </div>
-    </div>
-    
-    <div class="categoria">
-        <h2>🍖 Pratos Principais</h2>
-        <div class="item">
-            <span>Filé Grelhado</span>
-            <span class="preco">R$ 45,90</span>
-        </div>
-        <div class="item">
-            <span>Salmão ao Molho</span>
-            <span class="preco">R$ 38,90</span>
-        </div>
-        <div class="item">
-            <span>Lasanha da Casa</span>
-            <span class="preco">R$ 28,90</span>
-        </div>
-    </div>
-    
-    <div class="categoria">
-        <h2>🍰 Sobremesas</h2>
-        <div class="item">
-            <span>Petit Gâteau</span>
-            <span class="preco">R$ 18,90</span>
-        </div>
-        <div class="item">
-            <span>Pudim</span>
-            <span class="preco">R$ 12,90</span>
-        </div>
-    </div>
-    
-    <div class="categoria">
-        <h2>🥤 Bebidas</h2>
-        <div class="item">
-            <span>Suco Natural</span>
-            <span class="preco">R$ 8,90</span>
-        </div>
-        <div class="item">
-            <span>Refrigerante</span>
-            <span class="preco">R$ 5,90</span>
-        </div>
-    </div>
-</main>                                    
+  <main>
+    <section class="content">
+      <h1 class="titulo">🍕 Cardápio Italiano</h1>
 
+      <div class="cardapio">
 
+        <div class="card">
+          <img src="imagens/download.jpg" alt="Pizza Margherita">
+          <h2>Pizza Margherita</h2>
+          <p>Molho de tomate, mussarela e manjericão fresco.</p>
+          <span>R$ 45,00</span>
+        </div>
+
+        <div class="card">
+          <img src="imagens/download (1).jpg" alt="Lasanha">
+          <h2>Lasanha à Bolonhesa</h2>
+          <p>Camadas de massa, carne, molho e queijo gratinado.</p>
+          <span>R$ 52,00</span>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9" alt="Spaghetti">
+          <h2>Spaghetti Carbonara</h2>
+          <p>Molho cremoso com bacon, queijo e gema de ovo.</p>
+          <span>R$ 48,00</span>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df" alt="Risoto">
+          <h2>Risoto de Funghi</h2>
+          <p>Arroz cremoso com cogumelos e parmesão.</p>
+          <span>R$ 50,00</span>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Jessy Food</h3>
+        <p>Qualidade e sabor em cada prato.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="inicio.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="contatos.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contato</h4>
+        <p>Email: jessyfood@jessyfood.com</p>
+        <p>Telefone: (81) 99999-9999</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Jessy Food. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
